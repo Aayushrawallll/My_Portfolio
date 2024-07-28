@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Portfolio Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- linking css file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#home">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#project">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- main banner -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                    <h2 class="hero_title">Hi, it's me Aayush Rawal</h2>
+                    <p class="hero_desc">I am a Web Developer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section-->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-ab">About Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/ar.jpg" class="imageAboutPage" alt="">
+                </div>
+
+                <div class="col-lg-8">
+                    <p> I'm Aayush and I'm a student who is pursuing B.Tech from Raj Kumar Goel Institute Of Technology
+                        in Computer Science
+                        and Engineering, I belong from Ghaziabad. <br>I`m good in Web Development,Web Designing and many
+                        other technologies.
+
+                    </p>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Name: Aayush Rawal</li>
+                                <li>Age: 19</li>
+                                <li>Occupation: Web Developer/ Web Designer</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <p>
+                            Hello everyone, I am currently pursuing a Bachelor of Technology (B.Tech)
+                            degree in the Computer Science department. With a deep interest in web development and web
+                            designing, I am dedicated to enhancing my skills and knowledge in these fields. I am
+                            passionate about creating visually appealing and highly functional websites, and I
+                            continuously strive to stay updated with the latest trends and technologies in web design
+                            and development. My goal is to leverage my technical expertise to build innovative and
+                            user-friendly web solutions that deliver exceptional user experiences.
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- skills section-->
+    <section id="skills">
+        <div class="container">
+            <h1 class="text-center">Skills</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card skillsText">
+                        <div class="card-body">
+                            <i class="fas skillsIcon fa-clock"></i>
+                            <h4 class="card-title mt-3">Web Development</h4>
+                            <p class="card-text mt-3">Creation of websites on any topic by the help of html,css,js
+                                ,bootstrap and many more.
+                                It is the work involved in developing a website for the Internet (World Wide Web) or an
+                                intranet (a private network). Web development can range from developing a simple single
+                                static page of plain text to complex web applications.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card skillsText">
+                        <div class="card-body">
+                            <i class='fas skillsIcon fa-layer-group'></i>
+                            <h4 class="card-title mt-3">Web Designing</h4>
+                            <p class="card-text mt-3">Web Designing is the process of planning, conceptualizing, and
+                                implementing the
+                                plan for designing a website in a way that is functional and offers a good user
+                                experience. User experience is central to the web designing process.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card skillsText">
+                        <div class="card-body">
+                            <i class='far skillsIcon fa-check-circle'></i>
+                            <h4 class="card-title mt-3">Python Programmimg</h4>
+                            <p class="card-text mt-3">Python is a high-level, general-purpose programming language. Its
+                                design philosophy emphasizes code readability with the use of significant indentation.
+                                Python is dynamically typed and garbage-collected.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card skillsText">
+                        <div class="card-body">
+                            <i class='fas skillsIcon fa-search'></i>
+                            <h4 class="card-title mt-3">Graphic Designing</h4>
+                            <p class="card-text mt-3"> A craft where professionals create visual content to communicate
+                                messages. By applying visual hierarchy and page layout techniques, designers use
+                                typography and pictures to meet users' specific needs and focus on the logic of
+                                displaying elements in interactive designs.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card skillsText">
+                        <div class="card-body">
+                            <i class='fas skillsIcon fa-shield-alt'></i>
+                            <h4 class="card-title mt-3">Databases</h4>
+                            <p class="card-text mt-3"> An organized collection of structured information, or data,
+                                typically stored electronically in a computer system. I`ve basic knowledge of SQL, Mongo
+                                DB.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card skillsText">
+                        <div class="card-body">
+                            <i class='fas skillsIcon fa-wrench'></i>
+                            <h4 class="card-title mt-3">Basics of AI/ML </h4>
+                            <p class="card-text mt-3">AIML (Artificial Intelligence Markup Language) is a description
+                                language used in the development of natural language software agents like chatbots and
+                                virtual assistants. AIML was developed by Richard Wallace from 1995 to 2000, and it is
+                                based on XML (eXtensible Markup Language).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- project section-->
+    <section id="project">
+        <div class="container mt-3">
+            <h1 class="text-center">Projects</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/you.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">YouTube Clone</h4>
+                            <p class="card-text">YouTube clone by using Html,CSS, JavaScript
+                                industry.</p>
+                            <div class="text-center">
+                                <a href="https://www.youtube.com/" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card projectContent">
+                        <img class="card-img-top"
+                            src="images/coding.webp"
+                            alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Coding Website</h4>
+                            <p class="card-text"> Creation of coding website by using Wordpress.
+                            </p>
+                            <div class="text-center">
+                                <a href="http://localhost/word1/" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card projectContent">
+                        <img class="card-img-top" src="images/rest.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Restaurant Website</h4>
+                            <p class="card-text">Online Food Ordering Website by using front-end entities.By using
+                                HTML,CSS and JS. </p>
+                            <div class="text-center">
+                                <a href="https://www.youtube.com/watch?v=CjVGp5kGHxA" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card projectContent">
+                        <img class="card-img-top"
+                            src="images/gym.jpg"
+                            alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Gym Website</h4>
+                            <p class="card-text"> The complete website is created by front-end(html,css). It help people
+                                to find the best exercise for each and every body part which make their appearence
+                                better.
+                            </p>
+                            <div class="text-center">
+                                <a href="https://www.youtube.com/watch?v=_rWKTxvTUzQ" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card projectContent">
+                        <img class="card-img-top" src="images/word.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Wordpress Website</h4>
+                            <p class="card-text">Creation of website by using wordpress
+                                It uses templates for designing a beautiful webpages.
+                                It do not require any coding knowledge at beginner`s level for designing.
+                            </p>
+                            <div class="text-center">
+                                <a href="https://smilofyindia.org" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card projectContent">
+                        <img class="card-img-top" src="images/even.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Graphic Design Template</h4>
+                            <p class="card-text">The event poster is created by using graphic designing tools like:
+                                Adobe, Canva etc.Graphic design is not hard.</p>
+                            <div class="text-center">
+                                <a href="https://www.youtube.com/watch?v=e_dv7GBHka8&t=27263s"
+                                    class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- contact section-->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact Me</h1>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+                    <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+                        <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                            <iframe style="height:100%;width:100%;border:0;" frameborder="0"
+                                src="https://www.google.com/maps/embed/v1/place?q=new+york&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                            </iframe>
+                        </div>
+                        <a class="googlemaps-html" href="https://www.embed-map.com"
+                            id="get-data-forembedmap">https://www.embed-map.com</a>
+                        <style>
+                            #embedmap-canvas img {
+                                max-width: none !important;
+                                background: none !important;
+                                font-size: inherit;
+                                font-weight: inherit;
+                            }
+                        </style>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- form fields -->
+                    <form>
+                        <input type="text" class="form-control form-control-lg" placeholder="Name">
+                        <input type="email" class="form-control mt-3" placeholder="Email">
+                        <input type="text" class="form-control mt-3" placeholder="Subject">
+                        <div class="mb-3 mt-3">
+                            <textarea class="form-control" rows="5" id="comment" name="text"
+                                placeholder="Ask Your Query"></textarea>
+                        </div>
+                    </form>
+                    <button type="button" class="btn btn-success mt-3">Contact Me</button>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- footer section-->
+    <footer id="footer">
+        <div class="container-fluid">
+            <!-- social media icons -->
+            <div class="social-icons mt-4">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- load javascript after loading all html content -->
+    <script src="script/script.js"></script>
+
+</body>
+
+</html>
